@@ -10,7 +10,7 @@ int sockMerchant (vector<int> pile , int colors){
  for (int i = 0; i < pile.size() ; i++){
      if (!itsin(ivecounted,pile[i])){
          ivecounted.push_back(pile[i]);
-         helper.push_back(aparitions(pile,pile[i]));
+         helper.push_back(occurrences(pile,pile[i]));
      }
  }
  for(int i = 0; i < helper.size(); i++){
