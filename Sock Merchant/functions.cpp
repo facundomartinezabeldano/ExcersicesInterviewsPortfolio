@@ -11,12 +11,12 @@ bool itsin (vector<int> list, int number){
     return false;
 }
 
-int aparitions (vector<int> v, int number){
-    int aparitions = 0;
+int occurrences (vector<int> v, int number){
+    int occurrences = 0;
     for(int i = 0; i < v.size(); i++){
         if (v[i] == number){
-            aparitions++;
+            occurrences++;
         }
     }
-    return aparitions;
+    return occurrences;
 }
